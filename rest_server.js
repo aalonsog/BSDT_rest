@@ -23,7 +23,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/restaurants', function(req, res) {
-    model.list(function (restaurants) {
+    model.list(req.query, function (restaurants) {
         res.status(200).send(restaurants);
     }, function (error) {
         res.status(500).send(error);

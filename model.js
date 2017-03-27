@@ -16,8 +16,8 @@ exports.init = function (callback) {
 }
 
 // Returns a list of the available restaurants in the database
-exports.list = function (callback, error) {
-	console.log('Getting restaurants list');
+exports.list = function (query, callback, error) {
+	console.log('Getting restaurants list. Query: ', query);
 	
 	// Implementar consulta para listar los restaurantes disponibles. 
 	// El array de restaurantes debe devolverse como parámetro de la función callback
