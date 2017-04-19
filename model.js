@@ -1,5 +1,8 @@
+// MongoDriver client
 var MongoClient = require('mongodb').MongoClient;
-var db_url = process.env.DATABASE || 'mongodb://localhost:27017/bio_db';
+
+// Database URL
+var db_url = process.env.DATABASE || 'mongodb://localhost:27017/zips_small';
 
 // Global variable for the database connection
 var db;

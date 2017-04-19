@@ -16,7 +16,7 @@ npm install
 ### How to configure
 
 + The server is configured to listen in port 8000. You can modify that folder using the env variable `PORT`
-+ The server is configured to connect to database in `mongodb://localhost:27017/bio_db`. You can modify that folder using the env variable `DATABASE`
++ The server is configured to connect to database in `mongodb://localhost:27017/zips_small`. You can modify that folder using the env variable `DATABASE`
 
 Example:
 <pre>
