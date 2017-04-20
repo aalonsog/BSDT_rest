@@ -6,7 +6,7 @@ var model = require('./model');
 
 var app = express();
 
-var port = parseInt(process.env.PORT || '8000', 10);
+var port = 8000;
 
 model.init(function() {
     console.log('RESTful Service listening in port', port);
