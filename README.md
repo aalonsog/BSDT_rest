@@ -7,16 +7,17 @@
 
 ### How to install
 
+Download the project and uncompress it. 
+
 <pre>
-git clone https://github.com/aalonsog/BSDT_rest.git
 cd BSDT_rest
 npm install
 </pre>
 
 ### How to configure
 
-+ The server is configured to listen in port 8000. You can modify that folder using the env variable `PORT`
-+ The server is configured to connect to database in `mongodb://localhost:27017/zips_small`. You can modify that folder using the env variable `DATABASE`
++ The server is configured to listen in port 8000. You can modify it by changing the variable `port` in `rest_server.js` file.
++ The server is configured to connect to database in `mongodb://localhost:27017/zips_small`. You can modify it by changing the variable `db_url` in `model.js` file. 
 
 Example:
 <pre>
