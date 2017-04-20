@@ -17,12 +17,7 @@ npm install
 ### How to configure
 
 + The server is configured to listen in port 8000. You can modify it by changing the variable `port` in `rest_server.js` file.
-+ The server is configured to connect to database in `mongodb://localhost:27017/zips_small`. You can modify it by changing the variable `db_url` in `model.js` file. 
-
-Example:
-<pre>
-export PORT=8081
-</pre>
++ The server is configured to connect to database in `mongodb://localhost:27017/zips_small`. You can modify it by changing the variable `db_url` in `model.js` file.
 
 ### How to run
 
