@@ -51,3 +51,9 @@ Examples using curl client:
 
 #### Delete restaurant
 	curl -X DELETE http://localhost:8000/restaurants/3
+	
+#### Note:
+When using CURL in Windows, simple quotes are not accepted. For instance, to update a restaurant the next command must be used: 
+	
+	curl -H "Content-type:application/json" -X PUT -d "{\"nombre\":\"Nuevo nombre\"}" http://localhost:8000/restaurants/2`
+
