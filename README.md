@@ -38,7 +38,7 @@ Examples using curl client:
 	curl http://localhost:8000/restaurants
 	
 #### List restaurants including a query
-	curl http://localhost:8000/restaurants?nombre=miRestaurante&calle=calle30
+	curl "http://localhost:8000/restaurants?nombre=miRestaurante&calle=calle30"
 
 #### Get restaurant details
 	curl http://localhost:8000/restaurants/2
